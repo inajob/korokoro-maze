@@ -92,3 +92,4 @@ result = (result.faces(">Z").workplane()
 if HAVE_VIEWER:
     show_object(result)
 cq.exporters.export(result, 'maze.stl')
+cq.exporters.export(result, 'maze.step')

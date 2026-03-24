@@ -52,3 +52,4 @@ lid = (lid.faces(">Z").workplane()
 if HAVE_VIEWER:
     show_object(lid)
 cq.exporters.export(lid, 'maze_cover.stl')
+cq.exporters.export(lid, 'maze_cover.step')
